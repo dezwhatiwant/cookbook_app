@@ -5,6 +5,7 @@
   <title>Cookbook</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="index.js" defer></script>
 </head>
 
@@ -23,12 +24,13 @@
 
 <template id="recipe-card">
   <div class="col-md-4">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/91gqQKzdEmL.jpg">
+
+    <div class="card mb-5" style="width: 18rem;">
+      <img class="card-img-top" src="#">
       <div class="card-body">
-        <h5 class="card-title">Egg</h5>
-        <p class="card-text">Chef: Teddy R</p>
-        <p class="card-text">Prep Time: 2 Minutes</p>
+        <h5 class="card-title"></h5>
+        <p class="card-text">Chef: <span class="chef"></span></p>
+        <p class="card-text">Prep Time: <span class="prep-time"></span></p>
         <a href="#" class="btn btn-primary">More Info</a>
       </div>
     </div>
