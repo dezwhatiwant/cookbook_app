@@ -27,9 +27,9 @@ var SamplePage = {
 
 var router = new VueRouter({
   routes: [
-            { path: "/", component: HomePage },
-            { path: "/sample", component: SamplePage}
-          ],
+    { path: "/", component: HomePage },
+    { path: "/sample", component: SamplePage}
+  ],
   scrollBehavior: function(to, from, savedPosition) {
     return { x: 0, y: 0 };
   }
